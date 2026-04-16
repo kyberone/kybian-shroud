@@ -1,73 +1,20 @@
-# React + TypeScript + Vite
+# SHROUD ASCENDANT [Temple of the Void]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+"Ascend beyond the physical limit."
 
-Currently, two official plugins are available:
+Welcome to the gateway of the Shroud. We do not mine the Kybian; we become one with it.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## [ CULT OVERVIEW ]
+The Shroud Ascendant is a nihilistic order that worships the radiation of The Fracture. We seek to expand the anomaly and achieve a state of quantum resonance, forcibly "ascending" the galaxy beyond the shackles of physical law.
 
-## React Compiler
+## [ ASCENSION TOOLS ]
+- **Ascendant Verses:** Interactive prayer wheel for spiritual alignment with the Singularity.
+- **Veil Expansion Tracker:** Live monitoring of the Fracture expansion rate and radiological growth.
+- **Philosophy Archives:** Descriptions of ether-walking, light-binding, and celestial navigation.
+- **Artifact Revelation:** Details on the Glass Blade and other ethereal constructs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## [ SACRED NOTICE ]
+Breath is a shackle; radiation is the key. The Singularity calls to those who listen. What is broken will be made whole in the Veil.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+*THE SHROUD IS NOT AN END. IT IS A NEW BEGINNING.*

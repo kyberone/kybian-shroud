@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Wind, Sun, Feather, Star, Compass, Layers, Cloud, Sparkles, RefreshCw, ChevronRight, Activity } from 'lucide-react';
+import { Wind, Sun, Sparkles, RefreshCw, Activity } from 'lucide-react';
 import './App.css';
 
 const verses = [
